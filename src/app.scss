@@ -1,0 +1,701 @@
+body, #root{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+
+.d_gnrl00{
+    width:100vw;
+    height:100%;
+    background: rgb(37, 37, 37);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header{
+    width:90vw;
+    height:4rem;
+    border:solid 1px white;
+}
+
+.d_grnal00::-webkit-scrollbar-thumb {
+
+    background-color: rgb(203, 213, 223);
+    border-radius: 0rem;
+    transition: 1s;
+    box-shadow: -0.5vh 0vh 1vh 0.0vh rgba(93, 111, 114, 0.075);
+  
+  
+  }
+  
+  .d_grnal00::-webkit-scrollbar {
+  width: 0rem;   
+  height: 0;   
+  
+  transition: 1s;
+  }
+.d_gnrl01{
+    width:90vw;
+    height:60rem;
+ 
+}
+
+.h2_ttle00{
+    font-size:3rem;
+    margin:0;
+    color:white;
+    font-weight: 600;
+}
+.h3_ttle01{
+    font-weight: 500;
+    font-size:1rem;
+    margin:0 0 ;
+    color:rgb(187, 185, 185);
+    
+}
+
+.h3_ttle01::after{
+    content: " ˑ ";
+}
+.h3_ttle02{
+    font-weight: 500;
+    font-size:1rem;
+    margin:0 0 0 0.3rem;
+    color:rgb(187, 185, 185);
+}
+
+.h3_ttle02::after{
+    content: " ˑ ";
+}
+
+.h3_ttle03{
+    font-weight: 500;
+    font-size:1rem;
+    margin:0 0 0 0.3rem;
+    color:rgb(187, 185, 185);
+}
+.d_cntr01{
+    width:90vw;
+    height: 6rem;
+   
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d_cntr02{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.d_gp00{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.d_gp01{
+ height:4rem;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.d_dts00{
+    width:7rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+.d_dts01{
+    width:7rem;
+   
+    display: flex;
+    flex-flow: column nowrap;
+}
+.d_dts02{
+    width:8rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    color:rgb(100, 156, 189);
+}
+.h3_ttle04{
+    text-align: center;
+    font-weight: 500;
+    font-size:0.8rem;
+    margin:0 0 0 0.3rem;
+    color:rgb(187, 185, 185); 
+}
+
+.d_gnrl02{
+    width:90vw;
+    height:3rem;
+    background: rgb(61, 60, 60);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    align-items: center;
+}
+.d_dts02_02{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height:3rem;
+}
+.ipcicon01{
+    width:2rem;
+    height:2rem;
+}
+
+.d_gp02{
+    display: flex;
+    flex-flow: row nowrap;
+  
+align-items: center;
+    
+    border-radius: 0.3rem;
+
+}
+
+.h3_ttle05{
+    margin:0 0 0 0.3rem;
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.h3_ttle05:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+
+.h3_ttle05::after{
+    content: ' ˑ ';
+}
+.h3_ttle06{
+    margin:0 0 0 0.3rem;
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;  
+}
+
+
+.d_gp03{
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-right: solid 0.1rem white;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    transition: 0.3s;
+}
+
+.d_gp03:hover{
+    border-radius: 0.3rem;
+    background: rgb(94, 93, 93);
+    cursor: pointer;
+}
+
+.d_centr00{
+    margin: 1rem 0 0 0;
+    width:90vw;
+    height:24rem;
+    
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.d_centr00_00{
+    width:17rem;
+    height:24rem;
+margin:0 0.2rem 0 0;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.d_centr00_00:hover{
+cursor: pointer;
+}
+
+.frme_00{
+    width:45rem;
+    height:24rem;
+}
+
+.d_centr00_01{
+    width:45rem;
+    height:24rem;
+   
+  background-repeat: no-repeat;
+
+  background-size: contain;
+}
+
+.d_centr00_02{
+    width:14rem;
+    height:24rem;
+   
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  
+}
+
+.d_centr00_02_00{
+    background: rgb(66, 66, 66);
+    width:14.3rem;
+    height:11.9rem;
+   margin:0 0 .2rem 0.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.d_centr00_02_00:hover{
+    background: rgb(90, 90, 90);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.d_centr02{
+    margin:1rem 0 0 0 ;
+    width:90vw;
+    height:20rem;
+ 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.ipcicon02{
+    margin: 0 0 0 0.5rem;
+}
+.d_centr02_00{
+    width:45rem;
+    height:20rem;
+  
+}
+
+.d_centr02_01{
+    width:25rem;
+    height:18rem;
+   
+
+}
+
+.d_centr02_00_00{
+    display: flex;
+    flex-flow: column nowrap;
+
+
+}
+
+.d_centr02_00_01{
+    display: flex;
+    flex-flow: row nowrap;
+align-items: center;
+}
+
+
+
+.h3_ttle08{
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 1rem 0 0;
+}
+
+.h3_ttle07{
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;
+ border:solid white 0.1rem;
+ border-radius: 5rem;
+display: flex;
+justify-content: center;
+ width:4rem;
+ height:1.7rem;
+ margin:0;
+}
+
+.h3_ttle07:hover{
+background: rgb(77, 77, 77);
+cursor: pointer;
+}
+
+
+.p_00{
+    margin:1rem 0 0 0;
+    color:white;
+}
+
+.a_00{
+    margin:0rem 0 0 0;
+    color:rgb(104, 127, 233); 
+    font-weight: 600;
+}
+.a_00:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+.a_01{
+    margin:0rem 0 0 0;
+    color:rgb(104, 127, 233); 
+    font-weight: 600; 
+}
+.a_01::after{
+    content: ' ˑ ';
+}
+.a_02:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    }
+    .a_01:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        }
+    .a_05:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        }
+
+        .a_03:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            }
+.a_02{
+    margin:0rem 0 0 0.3rem;
+    color:rgb(104, 127, 233); 
+    font-weight: 600; 
+}
+.a_02::after{
+    content: ' ˑ ';
+}
+.a_03{
+    margin:0rem 0 0 0.3rem;
+    color:rgb(104, 127, 233); 
+    font-weight: 600; 
+}
+.a_04{
+   
+    color:rgb(248, 249, 255); 
+     
+}
+.a_04:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.a_05{
+ margin:0 0.5rem 0 0.3rem; 
+ color:rgb(104, 127, 233); 
+ font-weight: 600; 
+}
+
+.p_01{
+    margin:0rem 0 0 0;
+    color:white;
+}
+
+
+.p_01::after{
+
+    color:white;
+    content: ' ˑ ';
+    
+}
+
+
+
+.d_centr02_00_00{
+    
+    padding: 0 0 1rem 0;
+    
+}
+.d_centr02_00_01{
+    border-bottom:solid 0.1rem white;
+    padding: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    height:3rem;
+   
+}
+.d_centr02_00_02{
+    width:40rem;
+  
+    padding: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    height:3rem;
+   
+}
+.d_lg00{
+    margin: 0 0.5rem 0 0;
+}
+
+.d_centr02_01_00_00{
+    margin:0.5rem 0 0 0;
+    width:25rem;
+    height:3rem;
+
+    background: rgb(235, 235, 65);
+    border-radius: 0.3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.d_centr02_01_00_00:hover{
+    background: rgb(219, 219, 62);  
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.d_centr02_01_00_01{
+    margin:0.5rem 0 0 0;
+    width:25rem;
+    height:3rem;
+   
+   
+    display: flex;
+    flex-flow: row nowrap;
+    
+    
+}
+
+.d_centr02_01_00{
+    display: flex;
+    flex-flow: column nowrap;
+
+
+}
+
+.d_centr02_01_00_02{
+    margin:0.5rem 0 0 0;
+    width:25rem;
+    height:3rem;
+   
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.d_centr02_01_00_00_00{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.h3_ttle09{
+    display: flex;
+    flex-flow: row nowrap;
+    margin:0;
+    font-size: 0.9rem;
+}
+.h3_ttle10{
+    margin:0;
+    font-size: 0.7rem;
+}
+.ipc-icon00{
+  
+  margin: 0 0.5rem 0 0;
+}
+.h3_ttle11{
+    color: white;
+    font-size: 1rem;
+}
+
+.span_00{
+    margin:0rem 0 0 0.3rem;
+    color:rgb(104, 127, 233); 
+    font-weight: 600; 
+    font-weight: 700;
+}
+
+.span_00:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.span_01:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.a_06:hover{
+    text-decoration:underline;  
+    cursor: pointer;
+}
+
+.span_01{
+padding: 0.1rem 0.2rem 0.1rem 0.2rem;  
+    background:rgb(34, 189, 34);
+    color:white;
+    font-weight: 800;
+}
+
+.a_06{
+    margin:0 0.5rem 0 0.3rem; 
+ color:rgb(104, 127, 233); 
+ font-weight: 600;  
+}
+
+.d_centr02_01_00_01_00{
+    transition: 0.3s;
+    width:22rem;
+    background: rgb(61, 61, 61);
+    display: flex;
+   border-radius: 0.3rem;
+    align-items: center;
+}
+.d_centr02_01_00_01_00:hover{
+    cursor: pointer;
+    background: rgb(73, 73, 73);
+
+}
+
+
+
+.d_centr02_01_00_01_01{
+    transition: 0.3s;
+    background: rgb(61, 61, 61);
+    border-radius: 0 0.3rem 0.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:3rem;
+    margin: 0 0 0 0.3rem;
+}
+.d_centr02_01_00_01_01:hover{
+    cursor: pointer;
+    background: rgb(73, 73, 73);
+
+}
+
+
+
+.d_dts00_00{
+    height:3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.d_dts00_00:hover{
+    background: rgb(90, 90, 90);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+.d_dts01_00:hover{
+    background: rgb(90, 90, 90);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.d_dts02_00:hover{
+    background: rgb(90, 90, 90);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.d_dts02_02:hover{
+    background: rgb(90, 90, 90);
+    border-radius: 0.3rem;
+}
+
+.d_dts00_00_00{
+ 
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.d_dts00_00_00_00{
+   
+    display: flex;
+    flex-flow: row nowrap;  
+}
+
+.d_dts00_00_00_01{
+
+}
+.h3_ttle11{
+    color: white;
+    font-size: 1.1rem;
+    margin:0; 
+font-weight: 700;
+}
+
+.h3_ttle12{
+    color: rgb(212, 212, 212);
+    font-size: 0.9rem;
+    margin:0; 
+    font-weight: 500;
+}
+
+.h3_ttle13{
+    color: rgb(212, 212, 212);
+    font-size: 0.9rem;
+    margin:0; 
+    font-weight: 500;
+}
+
+.d_centr00_02_00_00{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.d_ipc_icon00{
+   margin: 0 1rem 0 0;
+    width:3rem;
+    height:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.d_ipc_icon00:hover{
+    background: rgb(95, 95, 95);
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.d_dts01_00{
+    height:3rem;
+    display: flex;
+    flex-flow: row nowrap;
+align-items: center;
+justify-content: center;
+}
+
+.h3_ttle14{
+    color: rgb(212, 212, 212);
+    font-size: 1.5rem;
+    margin:0; 
+    font-weight: 500; 
+}
+.h3_ttle15{
+    color: rgb(100, 156, 189);
+    font-size: 1.5rem;
+    margin:0; 
+    font-weight: 500; 
+}
+.h3_ttle16{
+    color: rgb(212, 212, 212);
+    font-size: 1.2rem;
+    margin:0; 
+    font-weight: 500;
+}
+
+
+.ipcicon00{
+
+    width:2rem;
+    height:2rem;
+ 
+}
